@@ -17,12 +17,12 @@ Traditional software teams move sequentially: Product writes PRDs, Design builds
 
 ### Install via skills.sh / npx
 ```bash
-npx skills add https://github.com/username/ai-engineer --skill ai-engineer
+npx skills add https://github.com/seven0070/ai-engineer --skill ai-engineer
 ```
 
 ### Install in Claude Code
 ```bash
-/plugin marketplace add username/ai-engineer
+/plugin marketplace add seven0070/ai-engineer
 /plugin install ai-engineer@ai-engineer
 ```
 
