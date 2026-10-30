@@ -1,0 +1,18 @@
+{
+  "name": "Schema Self-Healing & Reflection",
+  "type": "resilience",
+  "token_savings_pct": 46.8,
+  "simulated_latency_ms": 142,
+  "assertions": [
+    {
+      "check": "retry_on_json_error",
+      "required": true,
+      "mock_pass": true
+    },
+    {
+      "check": "pydantic_validation_success",
+      "required": true,
+      "mock_pass": true
+    }
+  ]
+}

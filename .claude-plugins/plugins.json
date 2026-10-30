@@ -1,0 +1,22 @@
+{
+  "name": "ai-engineer",
+  "version": "1.0.0",
+  "description": "Autonomous enterprise AI founder and massively parallel company operating engine",
+  "skills": [
+    {
+      "name": "ai-engineer",
+      "path": "skills/ai-engineer/SKILL.md",
+      "description": "Massively parallel full-company operating engine for shipping AI applications"
+    },
+    {
+      "name": "ai-engineer-audit",
+      "path": "skills/ai-engineer-audit/SKILL.md",
+      "description": "Audits codebases for prompt bloat, missing schemas, and AI anti-patterns"
+    },
+    {
+      "name": "ai-engineer-eval",
+      "path": "skills/ai-engineer-eval/SKILL.md",
+      "description": "Scaffolds golden eval test suites, assertion harnesses, and red-teaming checks"
+    }
+  ]
+}

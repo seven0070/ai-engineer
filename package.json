@@ -1,0 +1,21 @@
+{
+  "name": "ai-engineer",
+  "version": "1.0.0",
+  "description": "Autonomous enterprise AI founder and massively parallel company operating engine",
+  "main": "skills/ai-engineer/SKILL.md",
+  "keywords": [
+    "ai-engineer",
+    "agent-skills",
+    "claude-code",
+    "cursor",
+    "llm-evals",
+    "rag",
+    "ponytail"
+  ],
+  "author": "ai-engineer contributors",
+  "license": "MIT",
+  "scripts": {
+    "evals": "python3 evals/benchmark_suite.py",
+    "test": "python3 -m unittest discover -s evals"
+  }
+}

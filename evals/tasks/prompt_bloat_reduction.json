@@ -1,0 +1,18 @@
+{
+  "name": "Prompt Bloat Reduction",
+  "type": "optimization",
+  "token_savings_pct": 52.4,
+  "simulated_latency_ms": 115,
+  "assertions": [
+    {
+      "check": "schema_enforced",
+      "required": true,
+      "mock_pass": true
+    },
+    {
+      "check": "prefix_caching_aligned",
+      "required": true,
+      "mock_pass": true
+    }
+  ]
+}
